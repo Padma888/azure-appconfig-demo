@@ -6,7 +6,7 @@ const { SecretClient } = require('@azure/keyvault-secrets');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Use DefaultAzureCredential which will automatically use:
+/// Use DefaultAzureCredential which will automatically use:
 // - Environment variables (for local development)
 // - Managed Identity (when deployed to Azure)
 const credential = new DefaultAzureCredential();
