@@ -61,4 +61,4 @@ jobs:
           app-name: 'latha'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7F0B793835544C26A0B14D91188882A2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C835B143DB0E4C238587E3928454E26A }}
